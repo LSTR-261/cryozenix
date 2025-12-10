@@ -10,20 +10,20 @@
       ./copyparty.nix
       ./forgejo.nix
       ./glance.nix
-      ./grafana.nix
+      # ./grafana.nix
       ./home-assistant.nix
       ./immich.nix
       ./jellyfin.nix
-      ./minecraft.nix
+      # ./minecraft.nix
       ./navidrome.nix
       ./paperless.nix
       ./trilium.nix
-      ./ollama.nix
-      ./matrix.nix
+      # ./ollama.nix
+      # ./matrix.nix
       ./torbox.nix
       ./vaultwarden.nix
       # ./n8n.nix
-      # ./grocy.nix
+      ./grocy.nix
     ]
     ++ [
       ./arr/prowlarr.nix
