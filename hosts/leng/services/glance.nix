@@ -131,7 +131,7 @@
                   }
                   {
                     type = "reddit";
-                    subreddit = "analogcommunity";
+                    subreddit = "analog";
                     show-thumbnails = true;
                   }
                   {

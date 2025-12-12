@@ -12,6 +12,8 @@
       ./glance.nix
       # ./grafana.nix
       ./home-assistant.nix
+      ./homebox.nix
+      # ./homarr.nix
       ./immich.nix
       ./jellyfin.nix
       # ./minecraft.nix
@@ -23,7 +25,6 @@
       ./torbox.nix
       ./vaultwarden.nix
       # ./n8n.nix
-      ./grocy.nix
     ]
     ++ [
       ./arr/prowlarr.nix
