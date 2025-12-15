@@ -10,11 +10,17 @@
       enable = true;
       enableFishIntegration = true;
     };
+    television = {
+      enable = true;
+      enableFishIntegration = true;
+    };
+    bat.enable = true;
     yazi.enable = true;
   };
   home.packages = with pkgs; [
     xh
     unzip
+    fd
   ];
   modules = {
     fish = true;

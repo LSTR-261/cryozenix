@@ -183,6 +183,16 @@
                 title = "*arr";
                 sites = [
                   {
+                    title = "NZBHydra2";
+                    url = "https://hydra.lstr-261.eu/";
+                    icon = "di:nzbhydra";
+                  }
+                  {
+                    title = "Prowlarr";
+                    url = "https://prowlarr.lstr-261.eu/";
+                    icon = "di:prowlarr";
+                  }
+                  {
                     title = "Radarr";
                     url = "https://radarr.lstr-261.eu/";
                     icon = "di:radarr";
