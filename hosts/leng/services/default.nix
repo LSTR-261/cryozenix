@@ -11,7 +11,7 @@
       ./forgejo.nix
       ./glance.nix
       # ./grafana.nix
-      ./home-assistant.nix
+      # ./home-assistant.nix
       ./homebox.nix
       # ./homarr.nix
       ./immich.nix
@@ -22,7 +22,7 @@
       ./trilium.nix
       # ./ollama.nix
       # ./matrix.nix
-      ./torbox.nix
+      # ./torbox.nix
       ./vaultwarden.nix
       # ./n8n.nix
     ]
