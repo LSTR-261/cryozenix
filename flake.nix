@@ -21,6 +21,8 @@
     ragenix.inputs.nixpkgs.follows = "nixpkgs";
     copyparty.url = "github:9001/copyparty";
     copyparty.inputs.nixpkgs.follows = "nixpkgs";
+    comfyui-nix.url = "github:utensils/comfyui-nix";
+    comfyui-nix.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {self, ...} @ inputs: let

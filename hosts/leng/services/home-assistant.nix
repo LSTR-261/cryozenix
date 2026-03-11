@@ -2,6 +2,15 @@
   services.home-assistant = {
     enable = true;
     openFirewall = true;
+    extraComponents = [
+      "analytics"
+      "default_config"
+      "esphome"
+      "my"
+      "shopping_list"
+      "wled"
+      "mqtt"
+    ];
     config = {
       homeassistant = {
         latitude = 53.00470;
@@ -15,6 +24,7 @@
         use_x_forwarded_for = true;
         trusted_proxies = "10.200.4.124";
       };
+      default_config = {};
     };
   };
   services.caddy.virtualHosts."home.lstr-261.eu".extraConfig = ''
